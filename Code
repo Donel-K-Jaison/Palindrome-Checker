@@ -1,0 +1,13 @@
+# Check if a word is a palindrome in Python
+
+# Get user input
+word = input("Enter a word: ")
+
+# Reverse the word
+reverse_word = word[::-1]
+
+# Compare the original and reversed words
+if word == reverse_word:
+    print(word, "is a palindrome")
+else:
+    print(word, "is not a palindrome")
